@@ -1,0 +1,36 @@
+.text,
+.green-text {
+    color: green;
+    text-align: center;
+}
+
+.red-text {
+    color: red;
+}
+
+#pink-text {
+    color: deeppink;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.menu a{
+    color:deeppink;
+}
+.menu > .menu-item > a{
+    color: green;
+}
+
+.sub-menu li {
+    list-style-type: none;
+}
+.menu-item:last-child .sub-menu-item {
+    list-style-type: square;
+}
+
+.menu-item:last-child .sub-menu a {
+    text-decoration: none;
+}
+
