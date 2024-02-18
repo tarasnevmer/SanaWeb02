@@ -1,3 +1,5 @@
+/*Task 1*/
+
 .text,
 .green-text {
     color: green;
@@ -34,3 +36,20 @@
     text-decoration: none;
 }
 
+/*Task 2*/
+p:first-of-type {
+    font-size: 20px;
+}
+
+p code{
+    color: red;
+}
+
+p + p code{
+    color: deeppink;
+}
+
+code {
+    white-space: pre;
+    font-family: monospace;
+}
