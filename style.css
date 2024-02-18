@@ -60,6 +60,7 @@ code {
 table {
     font-family: 'Times New Roman', Times, serif;
     border-collapse: collapse;
+    margin: 10px;
 }
 
 table td,
@@ -111,4 +112,108 @@ table th:nth-child(4) {
 table th:last-child {
     background-color: #632423;
 }
+/* Task 4 */
+body {
+    margin: 0;
+    padding: 0;
+}
+.background-image{
+    height: 100%;
+    width: 100%;
+    background: url("images/background_images.jpg") center;
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+}
+.registration-form{
+    height: 450px;
+    width: 50%;
+    position: relative;
+    margin: 6% auto;
+    background: #ffffff;
+    border-radius: 5px;
+}
 
+.text-form{
+    font-family: Verdana, serif;
+    padding: 5px;
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.text-form input[type="text"],
+.text-form input[type="password"],
+.text-form input[type="email"]{
+    padding: 10px;
+    width: 75%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.text-form label{
+    font-weight: bold;
+}
+#checkBox{
+    font-weight: normal;
+    font-size: 12px;
+}
+.text-form input[type="checkbox"]{
+    margin-bottom: 20px;
+}
+.text-form hr{
+    width: 60px;
+    margin-left: 0;
+    color: #818181;
+}
+.login{
+    margin-right: 110px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 13px;
+}
+.image-form{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: url("images/image.jpg") right;
+}
+
+.registration-form h2{
+    color: #59aba6;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.registration-form h4{
+    color: #636363;
+}
+
+.registration-form input[type="submit"]{
+    width: 125px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #f06784;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]:hover{
+    color: lightgrey;
+}
+.login a{
+    color: #f05761;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #f02e36;
+    text-decoration: underline;
+}
